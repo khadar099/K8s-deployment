@@ -16,7 +16,7 @@ pipeline {
         stage ('deploy app') {
             steps {
                 script {
-                    sh 'ssh -tt ubuntu@172-31-39-165'
+                    sh 'ssh -tt ubuntu@ip-172-31-39-165'
                     sh 'mkdir basha'
                 }
             }
