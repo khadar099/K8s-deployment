@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     //sh "ssh -tt ubuntu@ip-172-31-39-165 -oStrictHostKeyChecking=no"
-                    sh "ssh -tt ubuntu@44.204.72.158 -oStrictHostKeyChecking=no"
+                    sh "ssh -tt 44.204.72.158 -oStrictHostKeyChecking=no"
                     sh "mkdir basha"
                 }
             }
